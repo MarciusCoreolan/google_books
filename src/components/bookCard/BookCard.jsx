@@ -17,7 +17,7 @@ function BookCard({ book }) {
       <div className={style.book_card_content}>
         <div>
           <div>
-            <span>Катешория: </span>
+            <span>Категория: </span>
             {book.volumeInfo.categories ? (
               <>{book.volumeInfo.categories}</>
             ) : (

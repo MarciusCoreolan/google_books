@@ -1,5 +1,5 @@
 const initialState = {
-  books: [],
+  books: null,
   totalItems: null,
   selected: 'All',
   changeCategory: [

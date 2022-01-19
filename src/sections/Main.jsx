@@ -11,11 +11,11 @@ function Main({ handleSearchMore }) {
 
   return (
     <div className={style.main}>
-      <div className={books.length ? style.main_container : ''}>
+      <div className={books ? style.main_container : ''}>
         <div className={style.main_container_info_title}>
           Найдено {totalItems}
         </div>
-        {books.length ? (
+        {books ? (
           <>
             {books
               .filter(
