@@ -1,0 +1,23 @@
+.main {
+  background-color: #f3f1f2;
+}
+.main_container {
+  width: 90%;
+  padding: 50px 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.main_container_info_title {
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.main_search_more_btn_container {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
