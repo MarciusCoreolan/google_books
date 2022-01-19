@@ -1,0 +1,27 @@
+.book_card {
+  min-height: 550px;
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.book_card_img {
+  border-bottom: 2px solid lightgray;
+  padding: 20px;
+  text-align: center;
+  height: 60%;
+}
+.book_card_content {
+  padding: 20px;
+}
+.book_card_content_author {
+  margin-bottom: 5px;
+}
+span {
+  font-size: 18px;
+  color: #e94e38;
+  text-decoration: underline;
+}
+.buy span:hover {
+  color: darkblue;
+}
